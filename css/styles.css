@@ -1,0 +1,254 @@
+/* Обнуляємо маржини у заголовків і параграфів */
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+/* Обнуляємо маржини і padding  */
+ul, ol {
+  margin: 0;
+  padding-left: 0;
+}
+
+/* Зображення робимо блочними */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF; }
+
+        .container {
+         max-width: 1158px;
+         padding-left: 15px;
+         padding-right: 15px;
+         margin-left: auto;
+         margin-right: auto; }
+
+/* Хедер */
+.header {
+    border-bottom: 1px solid #e7e9fc;
+    background-color: #ffffff;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+}
+
+/* Логотип */
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    text-decoration: none;
+}
+
+.logo-studio {
+    color: #2e2f42;
+}
+
+/* Навігація */
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link {
+    display: block;
+    padding: 24px 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-decoration: none;
+    transition: color 250ms ease-in-out;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #404bbf;
+}
+
+/* Контактна інформація */
+.contact-info {
+    font-style: normal;
+}
+
+.contact-list {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-decoration: none;
+    transition: color 250ms ease-in-out;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+    color: #404bbf; 
+}
+
+/* Секція Hero */
+.hero {
+    background-color: #2e2f42;
+    text-align: center;
+    padding: 188px 0;
+    /* Верх і низ — 188px, по макету */
+}
+
+.hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    /* 60px у Figma ÷ 56px = ~1.07 */
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    margin: 0;
+    margin-bottom: 48px;
+    /* Відступ між заголовком і кнопкою, згідно макету */
+}
+
+.hero-button {
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    /* 24px ÷ 16px = 1.5 */
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    padding: 16px 32px;
+    border-radius: 4px;     /* Закруглення кутів */
+    min-width: 169px;     /* Ширина кнопки з макету */
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #404BBF; }
+        
+    
+        
+                .feature-title {
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 1.2;
+                    letter-spacing: 0.02em;
+                    color: #2e2f42;
+                }
+        
+                .feature-text {
+                    font-size: 16px;
+                    line-height: 1.5;
+                    letter-spacing: 0.02em;
+                    color: #434455;     
+                    }
+                                        /* Заголовок секції */
+                                    .team{
+                                        background-color: #F4F4FD
+                                    }
+                                        .section-title {
+                                            font-size: 36px;
+                                            line-height: 1.11;
+                                            text-align: center;
+                                            letter-spacing: 0.02em;
+                                            text-transform: capitalize;
+                                            color: #2e2f42;
+                                        }
+                    
+                                        /* Пункти списку */
+                                        .team-item {
+                                            background-color: #FFFFFF;
+                                        }
+                    
+                                        /* Заголовки пунктів списку */
+                                        .team-name {
+                                            font-weight: 500;
+                                            font-size: 20px;
+                                            line-height: 1.2;
+                                            letter-spacing: 0.02em;
+                                            color: #2e2f42;
+                                        }
+                    
+                                        /* Параграфи пунктів списку */
+                                        .team-role {
+                                            font-size: 16px;
+                                            line-height: 1.5;
+                                            letter-spacing: 0.02em;
+                                            color: #434455; 
+      }
+          .portfolio-name {
+              font-weight: 500;
+              font-size: 20px;
+              line-height: 1.2;
+              letter-spacing: 0.02em;
+              color: #2e2f42;
+          }
+    
+          .portfolio-type {
+              font-size: 16px;
+              line-height: 1.5;
+              letter-spacing: 0.02em;
+              color: #434455;   }
+
+                          .footer {
+                              background-color: #2e2f42;
+                              /* фон футера */
+                              
+                            
+                              text-align: center;
+                              /
+                          }
+            
+                          .footer-logo {
+                              font-family: "Raleway", sans-serif;
+                              font-weight: 700;
+                              font-size: 18px;
+                              line-height: 1.17;
+                              letter-spacing: 0.03em;
+                              text-transform: uppercase;
+                              color: #4d5ae5;
+                              text-decoration: none;
+                          }
+            
+                          .footer-logo .studio-text {
+                              color: #f4f4fd;
+                              text-transform: none;
+                          }
+            
+                          .footer-text {
+                              line-height: 1.5;
+                              color: #f4f4fd;
+                             
+                              letter-spacing: 0.02em;
+                              margin-top: 12px;
+                          }
