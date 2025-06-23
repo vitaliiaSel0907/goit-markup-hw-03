@@ -357,6 +357,8 @@ body {
 }
 
 .footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -365,8 +367,7 @@ body {
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
-    display: inline-block;
-    margin-bottom: 16px;
+   
     }
 
 
